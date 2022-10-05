@@ -11,8 +11,22 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-family: 2rem;
+    padding: 0 3 rem;
 }
 
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color:chartreuse;
+}
+
+/* To display map properly -> Giving map an explicit height setting */
+#map {
+    height: 90vh; /* Unit: viewport height */
+}
