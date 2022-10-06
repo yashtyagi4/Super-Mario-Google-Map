@@ -26,6 +26,10 @@ body {
     color:chartreuse;
 }
 
+.gm-style-iw-d{
+    color: black;
+}
+
 /* To display map properly -> Giving map an explicit height setting */
 #map {
     height: 90vh; /* Unit: viewport height */
